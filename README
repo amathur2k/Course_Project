@@ -1,0 +1,12 @@
+Readme for Code Project
+
+run_analysis.R
+--------------
+Please source "run_analysis.R" from the UCI HAr DataSet directory. It refers to the data from this directory. It has been tested for windows systems.
+
+I have chosen to get all the variables names from features.txt and set them as the data column headers. This makes it easier to select the right columns for Step 2(Mean / STD). However in order to make the variables as acceptable column headers, i had to use make.names which converts all () to .. thus while searching for mean and std i have got all variables which include the text mean and std such as fBodyAcc.meanFreq().Z 
+Hence the total number of variables is higher (86), as per David's comment on the forum this is an acceptable solution.
+
+codebook.MD
+-----------
+This file contains a very simple description of all Variables produced at the end of the run. It has been generated programatically
