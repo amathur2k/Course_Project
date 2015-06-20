@@ -1,5 +1,12 @@
 Readme for Code Project
 
+tidyData.txt
+------------
+This is the final output file for the assignment.
+It can be read back into R using the following command
+
+tidy <- read.table("tidyData.txt", header = TRUE)
+
 run_analysis.R
 --------------
 Please source "run_analysis.R" from the UCI HAr DataSet directory. It refers to the data from this directory. It has been tested for windows systems.
